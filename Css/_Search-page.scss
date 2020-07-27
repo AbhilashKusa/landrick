@@ -1,0 +1,71 @@
+.Search-page{
+  min-height: 60vh;
+  display: flex;
+  background-color: #f8f9fc;
+align-items: center;
+margin-bottom: 20px;
+.Page-data{
+display: flex;
+flex-direction: column;
+align-items: center;
+.title{
+color: #161c2d;
+ font-size: 28px;
+ font-weight:600;
+ gap: normal;
+ font-family:'Nunito',
+ sans-serif;
+  letter-spacing: 1px ;
+  line-height: 42px;
+   margin: 0px 0px 8px ;
+   text-align: center;
+}
+}
+}
+form{
+width:100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+  height: auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 800px;
+  border: 1px solid hsl(210, 16%, 93%);
+  box-shadow: hsla(214, 19%, 29%, 0.15) 0px 0px 3px 0px;
+
+  margin-top: 24px;
+  .title{
+   text-align: center;
+  }
+  input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 800px;
+    text-align: start;
+    padding-left: 20px;
+
+  }
+  input:focus{
+outline: none;
+  }
+  button{
+    align-items: flex-start;
+    padding: 10px 20px;
+    margin: 2px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: white;
+    background-color: hsl(226,66%,51%);
+    border:1px solid hsl(226,66%,51%);
+    letter-spacing: 0.5px;
+    line-height: 24px;
+  }
+
+}
+@media screen and (max-width: 600px) {
+  form {
+    width: auto;
+  }
+}
