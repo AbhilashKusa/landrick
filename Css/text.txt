@@ -1,0 +1,98 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 8vh;
+    background-color: #f8f9fc;
+    font-family: 'Nunito', sans-serif;
+    padding: 24px 0px 26px 0px;
+
+    .logo {
+        cursor: pointer;
+    }
+
+
+    .nav-links {
+        a {
+            list-style: none;
+            text-decoration: none;
+        }
+
+        .nav-link {
+            display: inline-block;
+            padding: 0px 20px;
+            align-items: center;
+            text-align: left;
+            font-size: 13px;
+            line-height: 24px;
+
+            .link {
+                text-align: left;
+                list-style: none;
+                color: #3c4858;
+                text-transform: uppercase;
+                font-size: 13px;
+                line-height: 24px;
+                letter-spacing: 1px;
+                font-weight: 800;
+                padding: 25px 15px;
+            }
+
+            .link:hover {
+                color: #2f55d4;
+            }
+        }
+    }
+
+    a {
+        list-style: none;
+        text-decoration: none;
+        text-align: left;
+
+        .button {
+            background-color: #2f55d4 !important;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            list-style: none;
+            text-decoration: none;
+            padding: 8px 20px;
+            border-radius: 6px;
+            text-align: center;
+            letter-spacing: 0.5px;
+            text-transform: capitalize;
+            border: 1px solid #2f55d4;
+        }
+    }
+
+    .ham-burger {
+        position: absolute;
+        top: .75rem;
+        right: 1rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+
+        .line {
+            height: 3px;
+            width: 100%;
+            background-color: black;
+            border-radius: 10px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+.ham-burger{
+    display: flex;
+}
+.nav
+{
+    flex-direction: column;
+    align-items: ;
+}
+}
+

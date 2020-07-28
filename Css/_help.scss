@@ -1,0 +1,99 @@
+
+.section-3{
+    font-family:'Nunito',
+    sans-serif;
+    overflow: hidden;
+background-color: white;
+.a{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+.a-1{
+color: hsl(224, 3%, 13%);
+font-size: 600;
+line-height: 36px;
+margin: 0px 0px 24px;
+text-align: center;
+font-family:'Nunito',
+sans-serif;
+margin: 24px;
+}
+.a-2{
+color: hsl(215, 16%, 58%);
+line-height: 25.6px;
+margin: 0px 0px 16px;
+text-align: center;
+
+}
+}
+}
+
+.card {
+    transition: 0.6s;
+    position: relative;
+    .card-body{
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 80%;
+padding: 24px;
+line-height: 24px;
+text-align: center;
+color: hsl(224, 34, 13%);
+.para{
+color: hsl(215, 16%, 58%);
+line-height: 25.6px;
+margin: 16px 0px 0px;
+text-align: center;
+
+}
+.Faqs{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0px 0px 8px;
+    color: black;
+    padding-top:12px ;
+
+}
+.Faqs {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0px 0px 8px;
+    color: black;
+    padding-top: 12px;
+
+}
+.Faqs:hover{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0px 0px 8px;
+    color: blue;
+    padding-top: 12px;
+
+}
+
+.qestion-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:8rem;
+    width: 8rem;
+    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
+border-radius: 50px;
+}
+    }
+}
+.card:hover {
+    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
+}
+
+    

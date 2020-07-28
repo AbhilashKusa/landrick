@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap");
 .Search-page {
+  position: relative;
   min-height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -148,7 +149,7 @@ form button {
   line-height: 24px;
   text-transform: uppercase;
   padding: 25px 15px;
-  font-family: "Nunito";
+  font-family: 'Nunito',sans-serif;
 }
 
 .toggle-button {
@@ -231,7 +232,158 @@ form button {
   }
 }
 
+.section-3 {
+  font-family: 'Nunito', sans-serif;
+  overflow: hidden;
+  background-color: white;
+}
+
+.section-3 .a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-3 .a .a-1 {
+  color: #202122;
+  font-size: 600;
+  line-height: 36px;
+  margin: 0px 0px 24px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  margin: 24px;
+}
+
+.section-3 .a .a-2 {
+  color: #8391a5;
+  line-height: 25.6px;
+  margin: 0px 0px 16px;
+  text-align: center;
+}
+
+.card {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  position: relative;
+}
+
+.card .card-body {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  width: 80%;
+  padding: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #161c2c;
+}
+
+.card .card-body .para {
+  color: #8391a5;
+  line-height: 25.6px;
+  margin: 16px 0px 0px;
+  text-align: center;
+}
+
+.card .card-body .Faqs {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0px 0px 8px;
+  color: black;
+  padding-top: 12px;
+}
+
+.card .card-body .Faqs {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0px 0px 8px;
+  color: black;
+  padding-top: 12px;
+}
+
+.card .card-body .Faqs:hover {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0px 0px 8px;
+  color: blue;
+  padding-top: 12px;
+}
+
+.card .card-body .qestion-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 8rem;
+  width: 8rem;
+  -webkit-box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+
+.card:hover {
+  -webkit-box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section-2 {
+  background-color: white;
+  height: auto;
+  width: auto;
+  margin-bottom: 10rem;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 400px;
+}
+
+.section-2 .a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 * {
+  margin: 0;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
