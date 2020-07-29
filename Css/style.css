@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap");
 .Search-page {
-  position: relative;
   min-height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -97,7 +96,13 @@ form button {
 
 @media screen and (max-width: 600px) {
   form {
-    width: auto;
+    width: 50vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  form {
+    width: 50vh;
   }
 }
 
@@ -357,29 +362,8 @@ form button {
           box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
 }
 
-.section-2 {
+.section-x .raw-box > ul {
   background-color: white;
-  height: auto;
-  width: auto;
-  margin-bottom: 10rem;
-  width: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: absolute;
-  top: 400px;
-}
-
-.section-2 .a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 * {
@@ -388,6 +372,6 @@ form button {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font: "Nunito";
+  font-family: "Nunito",sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

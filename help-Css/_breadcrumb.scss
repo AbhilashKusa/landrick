@@ -1,0 +1,43 @@
+.section-x{
+    .raw-box{
+    }
+    .raw-box > ul{
+box-shadow: hsla(214, 19%, 29%, 0.15) 0px 0px 3px 0px;
+        display: inline-block;
+background-color: white;
+.breadcrumb-list{
+    list-style: none;
+.breadcrumb-list-a{
+color: black;
+display: inline;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.5px;
+text-align: center;
+text-transform: uppercase;
+line-height: 21px;
+text-decoration: none;
+
+
+}
+.breadcrumb-list-a:hover {
+    color:hsl(226, 66%, 51%);
+    display: inline;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 21px;
+    text-decoration: none;
+
+
+}
+}
+}
+}
+@media screen and (max-width: 600px) {
+  .Buying-Product{
+
+  }
+}

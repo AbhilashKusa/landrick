@@ -1,0 +1,41 @@
+.Buying-Product {
+    .left-bar {
+        font-family:'Nunito',
+        sans-serif;
+        border-radius: 6px;
+        line-height: 24px;
+        padding: 24px;
+        text-align: left;
+
+        box-shadow: hsla(214, 19%, 29%, 0.15) 0px 0px 3px 0px;
+
+        .un-order-list {
+            text-decoration: none;
+            margin-bottom: 0;
+            .list-class {
+                margin-top: 4rem;
+                color: hsl(224, 34%, 13%);
+                display: list-item;
+                line-height: 24px;
+                margin: 24px 0px 0px;
+                text-align: left;
+                list-style: none;
+                .a-class {
+                    font-family: 'Nunito',
+                        sans-serif;
+                    text-decoration: none;
+                    color: hsl(214, 19%, 24%);
+                    display: inline;
+                    font-weight: 700;
+                    line-height: 24px;
+                    margin: 0px 0px 8px;
+                    text-align: left;
+                    color: black;
+
+                }
+            }
+        }
+    }
+
+
+}
